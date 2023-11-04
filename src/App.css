@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Black+Ops+One&family=Dancing+Script:wght@500&family=Dosis:wght@500&family=Handjet&family=Josefin+Sans:wght@300&family=Onest:wght@500&family=PT+Sans+Narrow&family=Poppins:wght@300;400;500&family=Roboto:wght@900&display=swap');
+
+body {
+  font-family: 'Onest', sans-serif !important;
+  background-color: #18191a;
+  color: whitesmoke;
+}
+
+.logo {
+  height: 20vh;
+}
+
+.heading1{
+  color: rgb(9, 208, 169) !important;
+}
+
+.income_Expenese {
+  background-color: #212223;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, -0.81);
+}
+
+.plus {
+  color: #2ecc71;
+}
+
+.minus {
+  color: #c0392b;
+}
+
+.list li {
+  background-color: #212223 !important;
+  color: whitesmoke !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, -0.81);
+  border: none;
+}
+
+.list li.plus {
+  border-right: 5px solid #2ecc71;
+}
+
+.list li.minus {
+  border-right: 5px solid #c0392b;
+}
+
+
+.delete-btn {
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.list li:hover .delete-btn {
+  opacity: 1;
+}
+
+.form-control{
+  background-color: #212223 !important;
+  color: whitesmoke !important;
+  border-color: #212223 !important;
+}
+
+.btn {
+  background-color: rgb(9, 208, 169) !important;
+  color: #212223 !important;
+  border: none;
+}
+/* 
+@media (min-width: 768px){
+  .mainSection{
+      width: 100%;
+  }
+} */
